@@ -28,6 +28,6 @@ python312Packages.buildPythonApplication {
     license = lib.licenses.wtfpl;
     platforms = [ "x86_64-linux" ];
     maintainers = with lib.maintainers; [ unazikx ];
-    mainProgram = "qute-rbw";
+    mainProgram = "rbw-qutebrowser";
   };
 }

@@ -40,13 +40,13 @@ stdenv.mkDerivation {
 
   meta = {
     description = "The russian engineering fonts";
-    # license = {
-    #   tag = "custom";
-    #   shortName = "copyright";
-    #   fullName = "Copyright (C) All rights reserved";
-    #   url = "https://en.wikipedia.org/w/index.php?title=All_rights_reserved";
-    #   free = false;
-    # };
+    license = {
+      tag = "custom";
+      shortName = "copyright";
+      fullName = "Copyright (C) All rights reserved";
+      url = "https://en.wikipedia.org/w/index.php?title=All_rights_reserved";
+      free = false;
+    };
     homepage = "https://stroydocs.com/info/gost_fonts";
     platforms = lib.platforms.linux;
     maintainers = with lib.maintainers; [ azikx ];

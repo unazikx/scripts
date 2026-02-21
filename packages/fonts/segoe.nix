@@ -22,6 +22,13 @@ stdenv.mkDerivation {
 
   meta = {
     description = "Font used in Microsoft products for user interface text";
+    license = {
+      tag = "custom";
+      shortName = "copyright";
+      fullName = "Copyright (C) All rights reserved";
+      url = "https://en.wikipedia.org/w/index.php?title=All_rights_reserved";
+      free = false;
+    };
     homepage = "https://github.com/mrbvrz/segoe-ui-linux";
     platforms = lib.platforms.linux;
     maintainers = with lib.maintainers; [ azikx ];
